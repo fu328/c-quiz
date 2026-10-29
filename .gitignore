@@ -1,0 +1,33 @@
+# 依赖
+node_modules/
+.pnpm-store/
+
+# 构建产物（由 pnpm build 生成，不纳入版本库）
+dist/
+.vite/
+*.tsbuildinfo
+
+# 本地测试 / 临时文件
+.tmp*/
+.tmp-shots*/
+
+# 日志
+*.log
+pnpm-debug.log*
+
+# 环境变量与本地配置
+.env
+.env.*
+!.env.example
+*.local
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# 其他
+release/
+*.tgz

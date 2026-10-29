@@ -1,0 +1,39 @@
+{
+  "name": "c-quiz",
+  "private": true,
+  "version": "1.1.0",
+  "description": "C 语言刷题助手 - 文字/图片录题、程序阅读题与编程题、代码补全、连续刷题、错题标记",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "c",
+    "quiz",
+    "ocr",
+    "react",
+    "typescript",
+    "offline",
+    "indexeddb"
+  ],
+  "engines": {
+    "node": ">=20.19"
+  },
+  "packageManager": "pnpm@11.22.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "tesseract.js": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "typescript": "~5.9.3",
+    "vite": "^8.3.5"
+  }
+}
